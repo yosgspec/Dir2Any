@@ -3,9 +3,7 @@ Directory To Base64Text Converter for Python 3
 
 ## Usage
 ```cmd: Windows
-C:/>dir2base64
-
-$ dir2base64
+C:/> dir2base64
 ```
 
 ```sh: *nix
