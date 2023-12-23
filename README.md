@@ -12,7 +12,7 @@ chmod 755 ./dir2base64.sh
 ./dir2base64.sh
 ```
 
-### Usage
+### Help
 ```sh
 usage: dir2b64.py [-h] [-e] [-o] targetDir
 
