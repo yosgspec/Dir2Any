@@ -12,13 +12,18 @@ chmod 755 ./dir2base64.sh
 ./dir2base64.sh
 ```
 
-### Document
+### Usage
 ```sh
-$ dir2base64 option targetDir
+usage: dir2b64.py [-h] [-e] [-o] targetDir
 
-  option:
-    -d: targetDir to base64 > stdout
-    -fd: targetDir to base64 > base64.textFile
-    -b: stdin > base64 to targetDir
-    -fb: textFile > base64 to targetDir
+Compress targetDir to Zip/Base64
+
+positional arguments:
+  targetDir         Target directory
+
+options:
+  -h, --help        show this help message and exit
+  -e, --extract     Extract from Zip/Base64 to targetDir
+  -o, --outputFile  Set input/output to {targetDit}.b64
+
 ```
