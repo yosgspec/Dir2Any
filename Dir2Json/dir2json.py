@@ -20,7 +20,7 @@ class Dir2Any:
 		print("Extracted!")
 
 	def read(self):
-		with open(self._outputFile, 'r') as f:
+		with open(self._outputFile, "r") as f:
 			self.value = f.read()
 
 	def write(self):
