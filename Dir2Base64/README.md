@@ -3,13 +3,13 @@ Directory To Zip/Base64 Converter for Python 3
 
 ## Usage
 ```cmd: Windows
-C:/> ./dir2base64 samples
+C:/> ./dir2b64 samples
 ```
 
 ```sh: *nix
 # init
-chmod 755 ./dir2base64.sh
-./dir2base64.sh samples
+chmod 755 ./dir2b64.sh
+./dir2b64.sh samples
 ```
 
 ### Help

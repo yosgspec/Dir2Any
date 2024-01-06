@@ -3,26 +3,26 @@ Directory To Json Converter for Python 3
 
 ## Usage
 ```cmd: Windows
-C:/> ./Dir2Json samples
+C:/> ./dir2json samples
 ```
 
 ```sh: *nix
 # init
-chmod 755 ./Dir2Json.sh
-./Dir2Json.sh samples
+chmod 755 ./dir2json.sh
+./dir2json.sh samples
 ```
 
 ### Help
 ```sh
-usage: dir2b64.py [-h] [-e] [-o] targetDir
+usage: dir2json.py [-h] [-e] [-o] targetDir
 
 Compress targetDir to Json
 
 positional arguments:
-  targetDir         Target directory
+  targetDir         target directory
 
 options:
   -h, --help        show this help message and exit
-  -e, --extract     Extract from Json to targetDir
-  -o, --outputFile  Set input/output to {targetDit}.json
+  -e, --extract     extract from Json to targetDir
+  -o, --outputFile  set input/output to {targetDit}.json
 ```

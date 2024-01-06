@@ -1,29 +1,29 @@
-# Dir2Base64
-Directory To Base64Text Converter for Python 3
+# Dir2Any
+Directory To Zip/Base64 And Json Converter for Python 3
 
 ## Usage
 ```cmd: Windows
-C:/> dir2base64
+C:/> ./dir2 b64 samples
 ```
 
 ```sh: *nix
 # init
-chmod 755 ./dir2base64.sh
-./dir2base64.sh
+chmod 755 ./dir2.sh
+./dir2.sh b64 samples
 ```
 
 ### Help
 ```sh
-usage: dir2b64.py [-h] [-e] [-o] targetDir
+usage: dir2.py [-h] [-e] [-o] {b64,base64,json} targetDir
 
-Compress targetDir to Zip/Base64
+Compress targetDir to Zip/Base64 or Json
 
 positional arguments:
-  targetDir         Target directory
+  {b64,base64,json}  compress/extract format
+  targetDir          target directory
 
 options:
-  -h, --help        show this help message and exit
-  -e, --extract     Extract from Zip/Base64 to targetDir
-  -o, --outputFile  Set input/output to {targetDit}.b64
-
+  -h, --help         show this help message and exit
+  -e, --extract      extract from Zip/Base64 or Json to targetDir
+  -o, --outputFile   set input/output to {targetDit}.b64 or json
 ```
